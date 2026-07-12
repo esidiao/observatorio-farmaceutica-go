@@ -1,0 +1,2795 @@
+{
+ "meta": {
+  "titulo": "Observatório da Formação Farmacêutica em Goiás",
+  "subtitulo": "Dados, evidências e proposições para a nova Diretriz Curricular Nacional",
+  "org": "CRF-GO · GT de Ensino",
+  "autor": "Farm. Dr. Edson Sidião de Souza Júnior",
+  "evento": "XII Encontro Nacional de Coordenadores de Cursos de Farmácia — Brasília/DF, 23–24 jul 2026",
+  "fonte_base": "Censo da Educação Superior 2024 (INEP/MEC); ENADE/CPC 2023 (INEP/MEC); IBGE estimativa 2025; CNES (mai/2026); Programa Farmácia Popular; Observatório Nacional da Formação Farmacêutica — extração 27/06/2026",
+  "atualizacao": "Sincronizado com o capítulo de Goiás do livro Formação Farmacêutica no Brasil (Observatório Nacional da Formação Farmacêutica, extração 27/06/2026). Edite o objeto DATA no bloco de dados para atualizar os números."
+ },
+ "kpis": [
+  {
+   "k": "IES com curso de Farmácia",
+   "v": 67,
+   "suf": "",
+   "t": "observado",
+   "fonte": "Censo INEP 2024"
+  },
+  {
+   "k": "Vagas anuais autorizadas",
+   "v": 8887,
+   "suf": "",
+   "t": "observado",
+   "fonte": "Censo INEP 2024"
+  },
+  {
+   "k": "Concentração em Goiânia (oferta presencial)",
+   "v": 47.7,
+   "suf": "%",
+   "t": "observado",
+   "fonte": "Censo INEP 2024"
+  },
+  {
+   "k": "Municípios sem oferta (desertos)",
+   "v": 171,
+   "suf": "/246",
+   "t": "observado",
+   "fonte": "Censo INEP 2024/IBGE"
+  },
+  {
+   "k": "Vagas sem ciclo avaliativo (ENADE 2023)",
+   "v": 90.6,
+   "suf": "%",
+   "t": "observado",
+   "fonte": "INEP/ENADE 2023"
+  },
+  {
+   "k": "Farmacêuticos em atividade",
+   "v": 3408,
+   "suf": "",
+   "t": "observado",
+   "fonte": "CNES mai/2026"
+  },
+  {
+   "k": "Densidade de vagas",
+   "v": 119.7,
+   "suf": "/100 mil hab.",
+   "t": "observado",
+   "fonte": "Censo INEP 2024/IBGE 2025"
+  },
+  {
+   "k": "Dependência da rede privada",
+   "v": 93.1,
+   "suf": "%",
+   "t": "observado",
+   "fonte": "Censo INEP 2024"
+  }
+ ],
+ "situacao": {
+  "labels": [
+   "Ativos",
+   "Em extinção",
+   "Extintos"
+  ],
+  "valores": [
+   53,
+   34,
+   14
+  ],
+  "t": "observado",
+  "fonte": "e-MEC jun/2026 (101 registros) — situação cadastral; conceito não apurado pelo Censo INEP"
+ },
+ "modalidade_vagas": {
+  "labels": [
+   "Presencial",
+   "EaD"
+  ],
+  "valores": [
+   7247,
+   1640
+  ],
+  "t": "observado",
+  "fonte": "Censo INEP 2024"
+ },
+ "cobertura_municipal": {
+  "labels": [
+   "Com oferta",
+   "Desertos"
+  ],
+  "valores": [
+   75,
+   171
+  ],
+  "t": "observado",
+  "fonte": "Censo INEP 2024/IBGE"
+ },
+ "setor": {
+  "labels": [
+   "Privado",
+   "Público"
+  ],
+  "valores": [
+   8274,
+   613
+  ],
+  "t": "observado",
+  "fonte": "Censo INEP 2024 (6,9% das vagas em rede pública)"
+ },
+ "vagas_municipio": {
+  "labels": [
+   "Goiânia",
+   "Anápolis",
+   "Trindade",
+   "Novo Gama",
+   "Valparaíso de Goiás",
+   "Aparecida de Goiânia",
+   "Itumbiara",
+   "Quirinópolis"
+  ],
+  "valores": [
+   3456,
+   790,
+   443,
+   420,
+   316,
+   257,
+   245,
+   200
+  ],
+  "t": "observado",
+  "fonte": "Censo INEP 2024 — top 8 municípios por vagas presenciais",
+  "nota": "Distribuição municipal da capacidade EaD (1.640 vagas, atribuída à sede da mantenedora) não é apurada por município no Censo INEP — Dado a integrar."
+ },
+ "qualidade": {
+  "labels": [
+   "CC — ENADE 2023",
+   "IDD",
+   "CPC"
+  ],
+  "go": [
+   2.48,
+   2.01,
+   2.69
+  ],
+  "br": [
+   2.95,
+   2.21,
+   2.76
+  ],
+  "t": "observado",
+  "fonte": "INEP/ENADE 2023 (831 vagas avaliadas em GO; IDD com 28 cursos avaliados). Brasil: média nacional ponderada. Observatório Nacional, extração Censo INEP 27/06/2026."
+ },
+ "densidade_uf": {
+  "labels": [
+   "DF",
+   "RJ",
+   "PE",
+   "MS",
+   "PR",
+   "SP",
+   "CE",
+   "SC",
+   "AM",
+   "RO",
+   "AC",
+   "RR",
+   "GO",
+   "MT",
+   "MA",
+   "ES",
+   "AP",
+   "BA",
+   "PB",
+   "PA",
+   "PI",
+   "SE",
+   "TO",
+   "AL",
+   "MG",
+   "RN",
+   "RS"
+  ],
+  "valores": [
+   502.2,
+   380.4,
+   363.3,
+   358.3,
+   304.4,
+   283.1,
+   272.8,
+   212.0,
+   189.5,
+   167.9,
+   161.6,
+   146.1,
+   119.7,
+   118.3,
+   100.0,
+   85.7,
+   84.2,
+   79.9,
+   76.0,
+   69.6,
+   66.7,
+   59.8,
+   51.1,
+   50.8,
+   50.1,
+   42.4,
+   37.3
+  ],
+  "media": 195.4,
+  "go_z": -0.36,
+  "t": "observado",
+  "fonte": "Censo INEP 2024/IBGE 2025 — vagas autorizadas por 100 mil hab. (capacidade sediada)"
+ },
+ "densidade_go_br": {
+  "labels": [
+   "Goiás",
+   "Brasil"
+  ],
+  "valores": [
+   119.7,
+   195.4
+  ],
+  "t": "observado",
+  "fonte": "Censo INEP 2024/IBGE 2025"
+ },
+ "centro_oeste": {
+  "labels": [
+   "Centro-Oeste",
+   "Brasil",
+   "Sudeste"
+  ],
+  "valores": [
+   226.4,
+   195.4,
+   236.7
+  ],
+  "t": "observado",
+  "fonte": "Censo INEP 2024/IBGE 2025 — vagas/100 mil hab. (mediana regional; Quadro 3.1 do livro nacional)"
+ },
+ "avaliacao": {
+  "labels": [
+   "Sem ciclo avaliativo",
+   "Com ciclo avaliativo"
+  ],
+  "valores": [
+   8056,
+   831
+  ],
+  "t": "observado",
+  "fonte": "INEP/ENADE 2023 (831 de 8.887 vagas avaliadas em Goiás)"
+ },
+ "concentracao": {
+  "hhi": 620,
+  "hhi_mantenedora": 577,
+  "cr2": 24.9,
+  "cr10": 59.1,
+  "goiania": 47.7,
+  "t": "observado",
+  "fonte": "Censo INEP 2024 — HHI/CR2/CR10 por IES (escala 0–1 convertida para 0–10.000 no HHI); Goiânia = 47,7% da oferta presencial estadual"
+ },
+ "serie": {
+  "anos": [
+   2020,
+   2024,
+   2030
+  ],
+  "inscritos": [
+   10484,
+   14000,
+   21604
+  ],
+  "tipos": [
+   "observado",
+   "observado",
+   "projeção"
+  ],
+  "fonte": "CRF-GO (2020,2024); projeção ~7,5%/ano"
+ },
+ "cenarios": {
+  "anos": [
+   2024,
+   2030,
+   2040,
+   2050
+  ],
+  "contido": [
+   14000,
+   16700,
+   22400,
+   30100
+  ],
+  "tendencial": [
+   14000,
+   20100,
+   32700,
+   53300
+  ],
+  "expansionista": [
+   14000,
+   21000,
+   41300,
+   81300
+  ],
+  "t": "projeção",
+  "fonte": "Projeção (cenário, não observado): extrapolação 3%/5%/7% a.a. sobre a base 2024. Ver Cap. 13."
+ },
+ "farmacia_popular": {
+  "municipios": 205,
+  "beneficiarios": 824600,
+  "farmacias": 1785,
+  "t": "observado",
+  "fonte": "Programa Farmácia Popular via Observatório Nacional, extração 27/06/2026 (municípios); beneficiários e farmácias: base e-MEC/MS anterior, pendente reextração"
+ },
+ "contexto": {
+  "pop": 7423629,
+  "pop_censo": 7056495,
+  "sus_dep_pct": 74,
+  "cnes_ativos": 3408,
+  "cnes_densidade": 0.48,
+  "inscritos_2024": 14000,
+  "oferta_municipios": 75,
+  "desertos": 171,
+  "t": "observado",
+  "matriculas_total": 9276,
+  "concluintes_total": 1065,
+  "taxa_retencao": 11.5
+ },
+ "indices": [
+  {
+   "id": "ict",
+   "nome": "Concentração Territorial (ICT)",
+   "valor": 0.586,
+   "escala": "0–1 (menor é melhor)",
+   "cor": "medio",
+   "formula": "ICT — Índice de Concentração Territorial (Censo INEP 2024): mede a concentração da oferta presencial em poucos municípios.",
+   "valor_txt": "0,586",
+   "interp": "Goiás ocupa a 15ª posição (de 27 UFs) em concentração territorial — distribuição intermediária. A oferta presencial segue concentrada em Goiânia (47,7%), com 171 municípios sem qualquer curso.",
+   "faixas": "Mediana nacional: 0,548 · Goiás: 15º de 27 UFs",
+   "metodologia": "Índice padronizado do Observatório Nacional da Formação Farmacêutica — ver Cap. 2 (Metodologia) do livro nacional.",
+   "limitacoes": "Atribui a vaga EaD ao estado-sede da mantenedora; não mede a entrega real via polos de apoio presencial."
+  },
+  {
+   "id": "iir",
+   "nome": "Interiorização Real",
+   "valor": 0.305,
+   "escala": "0–1",
+   "cor": "baixo",
+   "formula": "IIR = municípios com oferta ÷ municípios do estado",
+   "valor_txt": "30,5%",
+   "interp": "75 de 246 municípios (30,5%) ofertam o curso — melhora expressiva frente à leitura e-MEC anterior (6,1%), mas 171 municípios (69,5%) seguem como desertos formativos.",
+   "faixas": "≤0,15 crítico · 0,16–0,40 baixo · >0,40 adequado",
+   "metodologia": "Razão simples de cobertura municipal da oferta (Censo INEP 2024).",
+   "limitacoes": "Não pondera porte populacional dos municípios com oferta; não distingue oferta presencial de polos EaD."
+  },
+  {
+   "id": "iva",
+   "nome": "Vácuo Avaliativo",
+   "valor": 0.906,
+   "escala": "0–1",
+   "cor": "crit",
+   "formula": "IVA = vagas sem ciclo avaliativo ÷ vagas totais (ENADE 2023) (= 1 − IVQ)",
+   "valor_txt": "0,91",
+   "interp": "90,6% das vagas (8.056 de 8.887) operam sem ciclo ENADE 2023 concluído — vácuo mais amplo que a leitura anterior (76%), refletindo a base ampliada do Censo INEP 2024 frente às 831 vagas efetivamente avaliadas.",
+   "faixas": "≤0,25 baixo · 0,26–0,50 médio · >0,50 crítico",
+   "metodologia": "Complemento da parcela de vagas com ciclo ENADE 2023 concluído.",
+   "limitacoes": "Cursos novos ainda sem ciclo previsto são contabilizados como sem avaliação."
+  },
+  {
+   "id": "idp",
+   "nome": "Dependência Privada",
+   "valor": 0.931,
+   "escala": "0–1",
+   "cor": "alto",
+   "formula": "IDP = vagas privadas ÷ vagas totais",
+   "valor_txt": "93,1%",
+   "interp": "93,1% das vagas são privadas; rede pública responde por 6,9% (dado agora apurado diretamente pelo Censo INEP 2024, substituindo a estimativa e-MEC anterior de 98,3%/1,7%).",
+   "faixas": "≤0,60 baixo · 0,61–0,85 médio · >0,85 alto",
+   "metodologia": "Parcela das vagas em IES privadas (Censo INEP 2024, categoria administrativa).",
+   "limitacoes": "Sem juízo de valor sobre qualidade por setor.",
+   "fonte_atualizada": true
+  },
+  {
+   "id": "ias",
+   "nome": "Alinhamento com o SUS",
+   "valor": 0.6,
+   "escala": "0–1",
+   "cor": "medio",
+   "formula": "IAS = média do alinhamento regulatório ao padrão internacional (IAPI)",
+   "valor_txt": "0,60",
+   "interp": "Marco brasileiro alinhado na vedação da EaD plena; verificação da prática presencial ainda frágil.",
+   "faixas": "≤0,40 baixo · 0,41–0,70 médio · >0,70 alto",
+   "metodologia": "Média de 5 dimensões regulatórias (ACPE/GPhC/FIP-OMS).",
+   "limitacoes": "Componente de orientação clínica dos PPC: Dado a integrar (análise de conteúdo)."
+  },
+  {
+   "id": "irr",
+   "nome": "Risco Regulatório",
+   "valor": 0.62,
+   "escala": "0–1",
+   "cor": "medio",
+   "formula": "IRR = média(vácuo avaliativo, fragilidade de verificação da prática, defasagem de avaliação)",
+   "valor_txt": "0,62",
+   "interp": "Risco moderado-alto: a norma veda EaD plena, mas o controle de qualidade que a efetiva está incompleto.",
+   "faixas": "≤0,33 baixo · 0,34–0,66 médio · >0,66 alto",
+   "metodologia": "Composto qualitativo ancorado em IVA e IAPI; pesos iguais.",
+   "limitacoes": "Construção analítica; não é nota regulatória oficial. O componente IVA subiu para 0,91 com a base do Censo INEP 2024 — índice pendente de recalibração formal."
+  },
+  {
+   "id": "ipr",
+   "nome": "Prioridade Regional",
+   "valor": null,
+   "escala": "0–1",
+   "cor": "gap",
+   "formula": "IPR = f(necessidade de saúde regional, vazio formativo, cobertura SUS) por macrorregião",
+   "valor_txt": "Dado a integrar",
+   "interp": "Requer microdado municipal (CNES por município e regiões de saúde) para cálculo por território — não coberto pelas fontes primárias do Censo INEP 2024.",
+   "faixas": "a definir após integração",
+   "metodologia": "Índice territorial; depende das camadas municipais.",
+   "limitacoes": "Dado a integrar — o Censo INEP 2024 já resolve vagas/IES por município (ver mapa), mas a malha de regiões de saúde (SES-GO) e o CNES por município ainda não estão integrados a este painel."
+  },
+  {
+   "id": "iso",
+   "nome": "Sustentabilidade da Oferta",
+   "valor": 0.77,
+   "escala": "0–1",
+   "cor": "baixo",
+   "formula": "ISO = capacidade de absorção (mercado/serviços) ÷ fluxo de formandos",
+   "valor_txt": "0,77",
+   "interp": "Com a base do Censo INEP 2024 (8.887 vagas anuais, ante 19.589 na leitura e-MEC anterior), a razão entre farmacêuticos ativos no CNES (3.408) e vagas anuais melhora de 0,35 para 0,77 — sinal de menor pressão de saturação, ainda a confirmar com dados de matrícula e egresso.",
+   "faixas": ">0,66 sustentável · 0,34–0,66 atenção · ≤0,33 insustentável",
+   "metodologia": "Razão entre absorção estimada (CNES) e fluxo anual de vagas autorizadas; sensível à fonte de absorção.",
+   "limitacoes": "Absorção real depende de RAIS/CAGED (fluxo de egressos): parcialmente a integrar. A melhora decorre de mudança de base (Censo INEP 2024), não de nova coleta de dados assistenciais."
+  },
+  {
+   "id": "iaf",
+   "nome": "Adequação Formativa (IAF)",
+   "valor": 30.0,
+   "escala": "0–100 (maior é melhor)",
+   "cor": "alto",
+   "formula": "IAF combina qualidade (ENADE) e distribuição da oferta num único índice (Censo INEP 2024 + ENADE 2023).",
+   "valor_txt": "30,0",
+   "interp": "Goiás ocupa a 18ª posição (de 27 UFs): adequação intermediária-baixa, abaixo da mediana nacional (33,3). A expansão de vagas não veio acompanhada de ganho qualitativo proporcional.",
+   "faixas": "Mediana nacional: 33,3 · Goiás: 18º de 27 UFs",
+   "metodologia": "Índice padronizado do Observatório Nacional da Formação Farmacêutica — ver Cap. 2 do livro nacional.",
+   "limitacoes": "Composto que mistura distribuição territorial e desempenho aferido; não separa os dois efeitos."
+  },
+  {
+   "id": "icon",
+   "nome": "Cobertura Assistencial (ICON)",
+   "valor": 2.7,
+   "escala": "contínuo (maior é melhor)",
+   "cor": "baixo",
+   "formula": "ICON = municípios com Farmácia Popular ÷ municípios com curso de Farmácia",
+   "valor_txt": "2,7",
+   "interp": "Goiás ocupa a 8ª posição (de 27 UFs): cobertura assistencial moderada-boa, com 205 municípios atendidos pela Farmácia Popular ante 75 municípios com curso — ativo explorável para integração ensino-serviço.",
+   "faixas": "Mediana nacional: 1,9 · Goiás: 8º de 27 UFs",
+   "metodologia": "Razão entre presença da rede de Farmácia Popular e municípios com curso de Farmácia (Ministério da Saúde + Censo INEP 2024).",
+   "limitacoes": "Não mede a qualidade nem o volume de atendimento da rede, apenas a presença municipal."
+  },
+  {
+   "id": "hhi",
+   "nome": "Concentração de Mercado (HHI)",
+   "valor": 0.062,
+   "escala": "0–1 (menor é melhor)",
+   "cor": "baixo",
+   "formula": "HHI = soma dos quadrados das parcelas de mercado das IES (Censo INEP 2024)",
+   "valor_txt": "0,062",
+   "interp": "Mercado pulverizado e competitivo: 67 IES sob 35 mantenedoras, bem abaixo do limiar de concentração (0,25).",
+   "faixas": "≤0,25 pulverizado · >0,25 concentrado/oligopolístico",
+   "metodologia": "Herfindahl–Hirschman sobre a parcela de vagas por IES (Censo INEP 2024).",
+   "limitacoes": "Mede concentração por IES, não por mantenedora nem por polo de entrega EaD."
+  },
+  {
+   "id": "e",
+   "nome": "Equidade Territorial (E)",
+   "valor": 0.414,
+   "escala": "0–1 (maior é melhor)",
+   "cor": "medio",
+   "formula": "E = 1 − ICT",
+   "valor_txt": "0,414",
+   "interp": "Equidade territorial moderada-baixa — complementa a leitura do ICT (0,586). Melhorou 0,056 frente a 2023 (E=0,358).",
+   "faixas": ">0,66 alta · 0,34–0,66 moderada · ≤0,33 baixa",
+   "metodologia": "Complemento direto do Índice de Concentração Territorial (Observatório Nacional).",
+   "limitacoes": "Herda as mesmas limitações do ICT (atribuição de vaga EaD à sede da mantenedora)."
+  },
+  {
+   "id": "icon_deserto",
+   "nome": "Cobertura Assistencial dos Desertos (ICON-deserto)",
+   "valor": 0.76,
+   "escala": "0–1 (maior é melhor)",
+   "cor": "baixo",
+   "formula": "ICON-deserto = fração dos municípios sem curso de Farmácia que já contam com Farmácia Popular",
+   "valor_txt": "0,76",
+   "interp": "76% dos 171 municípios sem curso já têm Farmácia Popular — potencial concreto de ancoragem para estágios e para uma futura estratégia de interiorização.",
+   "faixas": "quanto maior, maior o potencial de ancoragem assistencial disponível para expansão da oferta",
+   "metodologia": "Interseção entre a lista de desertos formativos e a cobertura do Programa Farmácia Popular (Observatório Nacional).",
+   "limitacoes": "Mede presença de Farmácia Popular, não capacidade real de campo de estágio (estrutura, RH, volume de atendimento)."
+  }
+ ],
+ "cruzamentos": [
+  {
+   "id": "vp",
+   "x": "Vagas",
+   "y": "População",
+   "calc": "8.887 vagas ÷ 7,42 mi hab = 1,20/mil",
+   "interp": "Densidade de vagas moderada para o porte populacional (119,7/100 mil hab., abaixo da média nacional de 195,4), mas ainda mal distribuída no território (75 de 246 municípios)."
+  },
+  {
+   "id": "vi",
+   "x": "Vagas",
+   "y": "Farmacêuticos inscritos",
+   "calc": "8.887 vagas vs 14.000 inscritos no CRF-GO (2024)",
+   "interp": "A capacidade anual de formação equivale a 63% do estoque histórico de inscritos no CRF-GO — pressão de expansão mais moderada que a leitura e-MEC anterior."
+  },
+  {
+   "id": "va",
+   "x": "Vagas",
+   "y": "Farmacêuticos em atividade (CNES)",
+   "calc": "8.887 vagas vs 3.408 em atividade",
+   "interp": "Oferta anual ~2,6× o contingente em atividade registrado — sinal de saturação mais moderado que a leitura e-MEC anterior (5,7×), mas ainda expressivo."
+  },
+  {
+   "id": "ve",
+   "x": "Vagas",
+   "y": "Avaliação (ENADE)",
+   "calc": "90,6% das vagas sem ciclo ENADE 2023 concluído (8.056 de 8.887)",
+   "interp": "A maior parte da oferta cresce sem verificação externa de qualidade recente — o vácuo avaliativo é o maior risco regulatório do estado."
+  },
+  {
+   "id": "ma",
+   "x": "Modalidade",
+   "y": "Avaliação",
+   "calc": "EaD = 18,5% das vagas (1.640); presencial = 81,5% (7.247)",
+   "interp": "Ao contrário da tendência nacional (68,8% EaD), Goiás mantém predominância presencial — achado favorável à verificação de prática, mas 56 municípios são atendidos exclusivamente por EaD e exigem atenção aos polos."
+  },
+  {
+   "id": "mc",
+   "x": "Município",
+   "y": "Concentração",
+   "calc": "Goiânia = 47,7% da oferta presencial estadual (3.456 de 7.247 vagas)",
+   "interp": "Concentração real bem menor que a leitura e-MEC anterior (82,8% das vagas totais); ainda assim, quase metade da oferta presencial permanece na capital, com 171 municípios sem qualquer curso."
+  }
+ ],
+ "timeline": [
+  {
+   "ano": "2017",
+   "ev": "Decreto 9.057/2017 — marco inicial da EaD",
+   "t": "observado"
+  },
+  {
+   "ano": "2020",
+   "ev": "10.484 farmacêuticos inscritos no CRF-GO",
+   "t": "observado"
+  },
+  {
+   "ano": "2022",
+   "ev": "Censo IBGE: 7.056.495 habitantes em Goiás",
+   "t": "observado"
+  },
+  {
+   "ano": "2024",
+   "ev": "14.000 inscritos; expansão de vagas semipresenciais",
+   "t": "observado"
+  },
+  {
+   "ano": "2025",
+   "ev": "Decreto 12.456/2025 — veda EaD plena em saúde",
+   "t": "observado"
+  },
+  {
+   "ano": "2026",
+   "ev": "CNES: 3.408 farmacêuticos em atividade (mai)",
+   "t": "observado"
+  },
+  {
+   "ano": "2026",
+   "ev": "Observatório Nacional extrai o Censo INEP 2024/ENADE-CPC 2023: 8.887 vagas, 67 IES, 171 desertos em Goiás (27/jun)",
+   "t": "observado"
+  },
+  {
+   "ano": "2030",
+   "ev": "Projeção: ~21.604 inscritos",
+   "t": "projeção"
+  }
+ ],
+ "propostas": [
+  "Exigir prática presencial supervisionada com carga e registro auditáveis em todas as modalidades.",
+  "Condicionar a operação em escala à avaliação externa prévia, não posterior.",
+  "Tornar o núcleo clínico-experiencial requisito aferível por competências.",
+  "Estabelecer piso de interiorização e critérios de necessidade regional para autorização.",
+  "Instituir painel público de monitoramento (vagas, modalidade, avaliação) por território."
+ ],
+ "glossario": [
+  [
+   "CC",
+   "Conceito de Curso — avaliação in loco do INEP (1–5)."
+  ],
+  [
+   "ENADE",
+   "Exame Nacional de Desempenho dos Estudantes."
+  ],
+  [
+   "IDD",
+   "Indicador de Diferença entre Desempenhos Observado e Esperado."
+  ],
+  [
+   "HHI",
+   "Índice de Herfindahl–Hirschman — mede concentração de mercado."
+  ],
+  [
+   "IVQ",
+   "Índice de Verificação de Qualidade — parcela de vagas com ciclo avaliativo concluído."
+  ],
+  [
+   "Deserto formativo",
+   "Município sem oferta do curso de Farmácia."
+  ],
+  [
+   "Semipresencial",
+   "Modalidade com parte presencial obrigatória e parte a distância."
+  ],
+  [
+   "ICT",
+   "Índice de Concentração Territorial — mede o quanto a oferta presencial se concentra em poucos municípios (0 a 1; menor é melhor)."
+  ],
+  [
+   "IAF",
+   "Índice de Adequação Formativa — combina qualidade aferida (ENADE) e distribuição territorial da oferta (0 a 100; maior é melhor)."
+  ],
+  [
+   "ICON",
+   "Índice de Cobertura Assistencial — razão entre municípios com Farmácia Popular e municípios com curso de Farmácia (maior é melhor)."
+  ],
+  [
+   "CPC",
+   "Conceito Preliminar de Curso — índice composto (ENADE, IDD, corpo docente, infraestrutura) do INEP."
+  ],
+  [
+   "E",
+   "Equidade Territorial — complemento do ICT (E = 1 − ICT); mede o equilíbrio da distribuição da oferta."
+  ],
+  [
+   "CR2 / CR10",
+   "Razão de concentração das 2 (ou 10) maiores IES na oferta total de vagas."
+  ]
+ ],
+ "cursos_modalidade": {
+  "labels": [
+   "Presencial",
+   "EaD"
+  ],
+  "valores": [
+   38,
+   5
+  ],
+  "t": "observado",
+  "fonte": "Censo INEP 2024"
+ },
+ "docente": {
+  "labels": [
+   "Doutores",
+   "Mestres ou mais",
+   "Regime integral/parcial"
+  ],
+  "valores": [
+   62.6,
+   93.2,
+   95.2
+  ],
+  "t": "observado",
+  "fonte": "Censo INEP 2024 — corpo docente dos cursos avaliados (29 cursos)"
+ },
+ "infraestrutura": {
+  "labels": [
+   "Organização didático-pedagógica",
+   "Infraestrutura física",
+   "Oportunidade de ampliação"
+  ],
+  "valores": [
+   5.46,
+   5.19,
+   4.67
+  ],
+  "escala": "1–6",
+  "t": "observado",
+  "fonte": "CPC/ENADE 2023 — dimensões do Conceito Preliminar de Curso"
+ },
+ "perfil_discente": {
+  "labels": [
+   "Mulheres",
+   "Negros/pardos/indígenas",
+   "Financiamento (FIES/PROUNI)",
+   "Noturno"
+  ],
+  "valores": [
+   70.7,
+   53.8,
+   5.6,
+   61.0
+  ],
+  "t": "observado",
+  "fonte": "ENADE 2023 — questionário do estudante"
+ },
+ "ead_polos": {
+  "municipios": 75,
+  "registros": 239,
+  "t": "observado",
+  "fonte": "Censo INEP 2024 — polos de apoio presencial EaD"
+ },
+ "ranking_ies": [
+  {
+   "nome": "CENTRO UNIVERSITÁRIO ESTÁCIO DE GOIÁS",
+   "vagas": 1360,
+   "categoria": "Privada"
+  },
+  {
+   "nome": "CENTRO UNIVERSITÁRIO GOYAZES",
+   "vagas": 443,
+   "categoria": "Privada"
+  },
+  {
+   "nome": "FACULDADE LOGOS",
+   "vagas": 420,
+   "categoria": "Privada"
+  },
+  {
+   "nome": "UNIVERSIDADE ESTADUAL DE GOIÁS",
+   "vagas": 409,
+   "categoria": "Pública Estadual"
+  },
+  {
+   "nome": "CENTRO UNIVERSITÁRIO UNIVERSO GOIÂNIA",
+   "vagas": 403,
+   "categoria": "Privada"
+  },
+  {
+   "nome": "Universidade Evangélica de Goiás",
+   "vagas": 325,
+   "categoria": "Privada"
+  },
+  {
+   "nome": "CENTRO UNIVERSITÁRIO ALFREDO NASSER",
+   "vagas": 257,
+   "categoria": "Privada"
+  },
+  {
+   "nome": "UNIVERSIDADE PAULISTA",
+   "vagas": 250,
+   "categoria": "Privada"
+  },
+  {
+   "nome": "Centro Universitário Cambury",
+   "vagas": 213,
+   "categoria": "Privada"
+  },
+  {
+   "nome": "Centro Universitário Facunicamps Goiânia",
+   "vagas": 200,
+   "categoria": "Privada"
+  },
+  {
+   "nome": "FACULDADE QUIRINÓPOLIS",
+   "vagas": 200,
+   "categoria": "Privada"
+  },
+  {
+   "nome": "Centro Universitário FACUNICAMPS",
+   "vagas": 170,
+   "categoria": "Privada"
+  },
+  {
+   "nome": "FACULDADE ANHANGUERA DE ANÁPOLIS",
+   "vagas": 160,
+   "categoria": "Privada"
+  },
+  {
+   "nome": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DE GOIÁS",
+   "vagas": 160,
+   "categoria": "Privada"
+  },
+  {
+   "nome": "Faculdade Evangélica de Valparaíso",
+   "vagas": 160,
+   "categoria": "Privada"
+  }
+ ],
+ "ranking_ies_fonte": "Censo INEP 2024 — agregado estadual por IES a partir do microdado municipal (Observatório Nacional)",
+ "municipios_detalhe": {
+  "5200134": {
+   "nome": "Acreúna",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 10,
+   "ingressos": 4,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5200308": {
+   "nome": "Alexânia",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 13,
+   "ingressos": 9,
+   "concluintes": 1,
+   "n_cursos": 3,
+   "n_ies": 3
+  },
+  "5200605": {
+   "nome": "Alto Paraíso de Goiás",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 13,
+   "ingressos": 4,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5201306": {
+   "nome": "Anicuns",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 5,
+   "ingressos": 1,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5201108": {
+   "nome": "Anápolis",
+   "vagas": 790,
+   "vagas_presencial": 790,
+   "vagas_ead": 0,
+   "matriculas": 1903,
+   "ingressos": 594,
+   "concluintes": 268,
+   "n_cursos": 17,
+   "n_ies": 17
+  },
+  "5201405": {
+   "nome": "Aparecida de Goiânia",
+   "vagas": 257,
+   "vagas_presencial": 257,
+   "vagas_ead": 0,
+   "matriculas": 509,
+   "ingressos": 232,
+   "concluintes": 78,
+   "n_cursos": 11,
+   "n_ies": 11
+  },
+  "5202502": {
+   "nome": "Aruanã",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 4,
+   "ingressos": 4,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5203203": {
+   "nome": "Barro Alto",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 0,
+   "ingressos": 0,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5203302": {
+   "nome": "Bela Vista de Goiás",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 10,
+   "ingressos": 5,
+   "concluintes": 0,
+   "n_cursos": 2,
+   "n_ies": 2
+  },
+  "5204508": {
+   "nome": "Caldas Novas",
+   "vagas": 120,
+   "vagas_presencial": 120,
+   "vagas_ead": 0,
+   "matriculas": 176,
+   "ingressos": 140,
+   "concluintes": 24,
+   "n_cursos": 7,
+   "n_ies": 7
+  },
+  "5204706": {
+   "nome": "Campinorte",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 0,
+   "ingressos": 0,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5204904": {
+   "nome": "Campos Belos",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 27,
+   "ingressos": 19,
+   "concluintes": 0,
+   "n_cursos": 2,
+   "n_ies": 2
+  },
+  "5205109": {
+   "nome": "Catalão",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 107,
+   "ingressos": 54,
+   "concluintes": 4,
+   "n_cursos": 6,
+   "n_ies": 6
+  },
+  "5205307": {
+   "nome": "Cavalcante",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 0,
+   "ingressos": 0,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5204300": {
+   "nome": "Caçu",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 0,
+   "ingressos": 0,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5205406": {
+   "nome": "Ceres",
+   "vagas": 110,
+   "vagas_presencial": 110,
+   "vagas_ead": 0,
+   "matriculas": 112,
+   "ingressos": 24,
+   "concluintes": 15,
+   "n_cursos": 4,
+   "n_ies": 4
+  },
+  "5205497": {
+   "nome": "Cidade Ocidental",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 18,
+   "ingressos": 12,
+   "concluintes": 0,
+   "n_cursos": 5,
+   "n_ies": 5
+  },
+  "5206206": {
+   "nome": "Cristalina",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 23,
+   "ingressos": 12,
+   "concluintes": 0,
+   "n_cursos": 3,
+   "n_ies": 3
+  },
+  "5206404": {
+   "nome": "Crixás",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 3,
+   "ingressos": 2,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5206701": {
+   "nome": "Damianópolis",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 1,
+   "ingressos": 1,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5207402": {
+   "nome": "Edéia",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 12,
+   "ingressos": 5,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5207907": {
+   "nome": "Flores de Goiás",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 2,
+   "ingressos": 0,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5208004": {
+   "nome": "Formosa",
+   "vagas": 50,
+   "vagas_presencial": 50,
+   "vagas_ead": 0,
+   "matriculas": 166,
+   "ingressos": 71,
+   "concluintes": 16,
+   "n_cursos": 7,
+   "n_ies": 7
+  },
+  "5208806": {
+   "nome": "Goianira",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 4,
+   "ingressos": 4,
+   "concluintes": 0,
+   "n_cursos": 3,
+   "n_ies": 3
+  },
+  "5208400": {
+   "nome": "Goianápolis",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 1,
+   "ingressos": 1,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5208608": {
+   "nome": "Goianésia",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 65,
+   "ingressos": 37,
+   "concluintes": 0,
+   "n_cursos": 4,
+   "n_ies": 4
+  },
+  "5209101": {
+   "nome": "Goiatuba",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 9,
+   "ingressos": 6,
+   "concluintes": 0,
+   "n_cursos": 2,
+   "n_ies": 2
+  },
+  "5208905": {
+   "nome": "Goiás",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 13,
+   "ingressos": 4,
+   "concluintes": 0,
+   "n_cursos": 2,
+   "n_ies": 2
+  },
+  "5208707": {
+   "nome": "Goiânia",
+   "vagas": 3456,
+   "vagas_presencial": 3456,
+   "vagas_ead": 0,
+   "matriculas": 2972,
+   "ingressos": 1297,
+   "concluintes": 296,
+   "n_cursos": 39,
+   "n_ies": 34
+  },
+  "5209200": {
+   "nome": "Guapó",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 2,
+   "ingressos": 0,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5209705": {
+   "nome": "Hidrolândia",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 2,
+   "ingressos": 1,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5210000": {
+   "nome": "Inhumas",
+   "vagas": 103,
+   "vagas_presencial": 103,
+   "vagas_ead": 0,
+   "matriculas": 119,
+   "ingressos": 49,
+   "concluintes": 16,
+   "n_cursos": 6,
+   "n_ies": 6
+  },
+  "5210109": {
+   "nome": "Ipameri",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 5,
+   "ingressos": 0,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5210208": {
+   "nome": "Iporá",
+   "vagas": 50,
+   "vagas_presencial": 50,
+   "vagas_ead": 0,
+   "matriculas": 61,
+   "ingressos": 14,
+   "concluintes": 2,
+   "n_cursos": 2,
+   "n_ies": 2
+  },
+  "5210406": {
+   "nome": "Itaberaí",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 28,
+   "ingressos": 15,
+   "concluintes": 0,
+   "n_cursos": 4,
+   "n_ies": 4
+  },
+  "5210901": {
+   "nome": "Itapaci",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 1,
+   "ingressos": 1,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5211206": {
+   "nome": "Itapuranga",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 111,
+   "ingressos": 50,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5211503": {
+   "nome": "Itumbiara",
+   "vagas": 245,
+   "vagas_presencial": 245,
+   "vagas_ead": 0,
+   "matriculas": 286,
+   "ingressos": 98,
+   "concluintes": 24,
+   "n_cursos": 7,
+   "n_ies": 7
+  },
+  "5211800": {
+   "nome": "Jaraguá",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 5,
+   "ingressos": 2,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5211909": {
+   "nome": "Jataí",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 40,
+   "ingressos": 18,
+   "concluintes": 2,
+   "n_cursos": 5,
+   "n_ies": 5
+  },
+  "5212204": {
+   "nome": "Jussara",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 9,
+   "ingressos": 2,
+   "concluintes": 1,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5212501": {
+   "nome": "Luziânia",
+   "vagas": 102,
+   "vagas_presencial": 102,
+   "vagas_ead": 0,
+   "matriculas": 137,
+   "ingressos": 57,
+   "concluintes": 23,
+   "n_cursos": 7,
+   "n_ies": 7
+  },
+  "5212709": {
+   "nome": "Mambaí",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 1,
+   "ingressos": 0,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5213087": {
+   "nome": "Minaçu",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 5,
+   "ingressos": 4,
+   "concluintes": 0,
+   "n_cursos": 2,
+   "n_ies": 2
+  },
+  "5213103": {
+   "nome": "Mineiros",
+   "vagas": 105,
+   "vagas_presencial": 105,
+   "vagas_ead": 0,
+   "matriculas": 76,
+   "ingressos": 29,
+   "concluintes": 13,
+   "n_cursos": 3,
+   "n_ies": 3
+  },
+  "5213806": {
+   "nome": "Morrinhos",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 109,
+   "ingressos": 29,
+   "concluintes": 19,
+   "n_cursos": 3,
+   "n_ies": 3
+  },
+  "5214002": {
+   "nome": "Mozarlândia",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 1,
+   "ingressos": 3,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5214507": {
+   "nome": "Nerópolis",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 6,
+   "ingressos": 4,
+   "concluintes": 0,
+   "n_cursos": 2,
+   "n_ies": 2
+  },
+  "5214606": {
+   "nome": "Niquelândia",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 12,
+   "ingressos": 2,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5214838": {
+   "nome": "Nova Crixás",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 25,
+   "ingressos": 2,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5215231": {
+   "nome": "Novo Gama",
+   "vagas": 420,
+   "vagas_presencial": 420,
+   "vagas_ead": 0,
+   "matriculas": 78,
+   "ingressos": 36,
+   "concluintes": 14,
+   "n_cursos": 6,
+   "n_ies": 6
+  },
+  "5215306": {
+   "nome": "Orizona",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 1,
+   "ingressos": 2,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5215603": {
+   "nome": "Padre Bernardo",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 10,
+   "ingressos": 2,
+   "concluintes": 0,
+   "n_cursos": 2,
+   "n_ies": 2
+  },
+  "5215702": {
+   "nome": "Palmeiras de Goiás",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 5,
+   "ingressos": 5,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5217104": {
+   "nome": "Piracanjuba",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 0,
+   "ingressos": 0,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5217302": {
+   "nome": "Pirenópolis",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 1,
+   "ingressos": 1,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5217401": {
+   "nome": "Pires do Rio",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 8,
+   "ingressos": 8,
+   "concluintes": 0,
+   "n_cursos": 2,
+   "n_ies": 2
+  },
+  "5217609": {
+   "nome": "Planaltina",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 116,
+   "ingressos": 48,
+   "concluintes": 0,
+   "n_cursos": 8,
+   "n_ies": 8
+  },
+  "5218003": {
+   "nome": "Porangatu",
+   "vagas": 165,
+   "vagas_presencial": 165,
+   "vagas_ead": 0,
+   "matriculas": 151,
+   "ingressos": 51,
+   "concluintes": 22,
+   "n_cursos": 5,
+   "n_ies": 5
+  },
+  "5218300": {
+   "nome": "Posse",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 86,
+   "ingressos": 24,
+   "concluintes": 11,
+   "n_cursos": 3,
+   "n_ies": 3
+  },
+  "5218508": {
+   "nome": "Quirinópolis",
+   "vagas": 200,
+   "vagas_presencial": 200,
+   "vagas_ead": 0,
+   "matriculas": 31,
+   "ingressos": 6,
+   "concluintes": 13,
+   "n_cursos": 4,
+   "n_ies": 4
+  },
+  "5218805": {
+   "nome": "Rio Verde",
+   "vagas": 150,
+   "vagas_presencial": 150,
+   "vagas_ead": 0,
+   "matriculas": 173,
+   "ingressos": 80,
+   "concluintes": 25,
+   "n_cursos": 8,
+   "n_ies": 8
+  },
+  "5219308": {
+   "nome": "Santa Helena de Goiás",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 12,
+   "ingressos": 5,
+   "concluintes": 0,
+   "n_cursos": 3,
+   "n_ies": 3
+  },
+  "5219704": {
+   "nome": "Santa Terezinha de Goiás",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 145,
+   "ingressos": 39,
+   "concluintes": 31,
+   "n_cursos": 2,
+   "n_ies": 2
+  },
+  "5219753": {
+   "nome": "Santo Antônio do Descoberto",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 22,
+   "ingressos": 11,
+   "concluintes": 1,
+   "n_cursos": 3,
+   "n_ies": 3
+  },
+  "5220454": {
+   "nome": "Senador Canedo",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 64,
+   "ingressos": 34,
+   "concluintes": 2,
+   "n_cursos": 5,
+   "n_ies": 5
+  },
+  "5220686": {
+   "nome": "Simolândia",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 11,
+   "ingressos": 4,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5219803": {
+   "nome": "São Domingos",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 1,
+   "ingressos": 1,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5220108": {
+   "nome": "São Luís de Montes Belos",
+   "vagas": 120,
+   "vagas_presencial": 120,
+   "vagas_ead": 0,
+   "matriculas": 139,
+   "ingressos": 52,
+   "concluintes": 24,
+   "n_cursos": 3,
+   "n_ies": 3
+  },
+  "5220207": {
+   "nome": "São Miguel do Araguaia",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 17,
+   "ingressos": 0,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5221403": {
+   "nome": "Trindade",
+   "vagas": 443,
+   "vagas_presencial": 443,
+   "vagas_ead": 0,
+   "matriculas": 228,
+   "ingressos": 95,
+   "concluintes": 9,
+   "n_cursos": 7,
+   "n_ies": 7
+  },
+  "5221601": {
+   "nome": "Uruaçu",
+   "vagas": 45,
+   "vagas_presencial": 45,
+   "vagas_ead": 0,
+   "matriculas": 85,
+   "ingressos": 20,
+   "concluintes": 23,
+   "n_cursos": 5,
+   "n_ies": 5
+  },
+  "5221858": {
+   "nome": "Valparaíso de Goiás",
+   "vagas": 316,
+   "vagas_presencial": 316,
+   "vagas_ead": 0,
+   "matriculas": 576,
+   "ingressos": 254,
+   "concluintes": 85,
+   "n_cursos": 14,
+   "n_ies": 13
+  },
+  "5222005": {
+   "nome": "Vianópolis",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 14,
+   "ingressos": 14,
+   "concluintes": 0,
+   "n_cursos": 1,
+   "n_ies": 1
+  },
+  "5200258": {
+   "nome": "Águas Lindas de Goiás",
+   "vagas": 0,
+   "vagas_presencial": 0,
+   "vagas_ead": 0,
+   "matriculas": 83,
+   "ingressos": 63,
+   "concluintes": 3,
+   "n_cursos": 7,
+   "n_ies": 7
+  }
+ },
+ "municipios_detalhe_fonte": "Censo INEP 2024 — microdado por município (Observatório Nacional, extração 27/06/2026)",
+ "regioes_saude": {
+  "macrorregioes": {
+   "Centro-Oeste": [
+    "Central",
+    "Oeste I",
+    "Oeste II",
+    "Rio Vermelho"
+   ],
+   "Centro Norte": [
+    "Norte",
+    "Pireneus",
+    "São Patrício I",
+    "São Patrício II",
+    "Serra da Mesa"
+   ],
+   "Centro Sudeste": [
+    "Centro Sul",
+    "Estrada de Ferro",
+    "Sul"
+   ],
+   "Nordeste": [
+    "Entorno Norte",
+    "Entorno Sul",
+    "Nordeste I",
+    "Nordeste II"
+   ],
+   "Sudoeste": [
+    "Sudoeste I",
+    "Sudoeste II"
+   ]
+  },
+  "por_regiao": {
+   "Central": {
+    "macrorregiao": "Centro-Oeste",
+    "municipios_total": 26,
+    "municipios_oferta": 7,
+    "vagas": 4002,
+    "cursos": 59,
+    "matriculas": 3336
+   },
+   "Centro Sul": {
+    "macrorregiao": "Centro Sudeste",
+    "municipios_total": 25,
+    "municipios_oferta": 8,
+    "vagas": 257,
+    "cursos": 23,
+    "matriculas": 612
+   },
+   "Entorno Norte": {
+    "macrorregiao": "Nordeste",
+    "municipios_total": 8,
+    "municipios_oferta": 4,
+    "vagas": 50,
+    "cursos": 17,
+    "matriculas": 297
+   },
+   "Entorno Sul": {
+    "macrorregiao": "Nordeste",
+    "municipios_total": 7,
+    "municipios_oferta": 7,
+    "vagas": 838,
+    "cursos": 45,
+    "matriculas": 937
+   },
+   "Estrada de Ferro": {
+    "macrorregiao": "Centro Sudeste",
+    "municipios_total": 18,
+    "municipios_oferta": 4,
+    "vagas": 120,
+    "cursos": 16,
+    "matriculas": 296
+   },
+   "Nordeste I": {
+    "macrorregiao": "Nordeste",
+    "municipios_total": 5,
+    "municipios_oferta": 2,
+    "vagas": 0,
+    "cursos": 3,
+    "matriculas": 27
+   },
+   "Nordeste II": {
+    "macrorregiao": "Nordeste",
+    "municipios_total": 11,
+    "municipios_oferta": 5,
+    "vagas": 0,
+    "cursos": 7,
+    "matriculas": 100
+   },
+   "Norte": {
+    "macrorregiao": "Centro Norte",
+    "municipios_total": 13,
+    "municipios_oferta": 3,
+    "vagas": 165,
+    "cursos": 8,
+    "matriculas": 173
+   },
+   "Oeste I": {
+    "macrorregiao": "Centro-Oeste",
+    "municipios_total": 16,
+    "municipios_oferta": 1,
+    "vagas": 50,
+    "cursos": 2,
+    "matriculas": 61
+   },
+   "Oeste II": {
+    "macrorregiao": "Centro-Oeste",
+    "municipios_total": 13,
+    "municipios_oferta": 2,
+    "vagas": 120,
+    "cursos": 4,
+    "matriculas": 144
+   },
+   "Pireneus": {
+    "macrorregiao": "Centro Norte",
+    "municipios_total": 10,
+    "municipios_oferta": 4,
+    "vagas": 790,
+    "cursos": 22,
+    "matriculas": 1918
+   },
+   "Rio Vermelho": {
+    "macrorregiao": "Centro-Oeste",
+    "municipios_total": 17,
+    "municipios_oferta": 7,
+    "vagas": 0,
+    "cursos": 11,
+    "matriculas": 191
+   },
+   "Serra da Mesa": {
+    "macrorregiao": "Centro Norte",
+    "municipios_total": 9,
+    "municipios_oferta": 3,
+    "vagas": 45,
+    "cursos": 7,
+    "matriculas": 97
+   },
+   "Sudoeste I": {
+    "macrorregiao": "Sudoeste",
+    "municipios_total": 18,
+    "municipios_oferta": 5,
+    "vagas": 350,
+    "cursos": 17,
+    "matriculas": 226
+   },
+   "Sudoeste II": {
+    "macrorregiao": "Sudoeste",
+    "municipios_total": 10,
+    "municipios_oferta": 2,
+    "vagas": 105,
+    "cursos": 8,
+    "matriculas": 116
+   },
+   "Sul": {
+    "macrorregiao": "Centro Sudeste",
+    "municipios_total": 12,
+    "municipios_oferta": 3,
+    "vagas": 245,
+    "cursos": 12,
+    "matriculas": 404
+   },
+   "São Patrício I": {
+    "macrorregiao": "Centro Norte",
+    "municipios_total": 20,
+    "municipios_oferta": 4,
+    "vagas": 110,
+    "cursos": 8,
+    "matriculas": 261
+   },
+   "São Patrício II": {
+    "macrorregiao": "Centro Norte",
+    "municipios_total": 8,
+    "municipios_oferta": 4,
+    "vagas": 0,
+    "cursos": 8,
+    "matriculas": 80
+   }
+  },
+  "t": "observado",
+  "fonte": "SES-GO — Plano Diretor de Regionalização (18 regiões de saúde, 5 macrorregiões); cruzamento com Censo INEP 2024 (vagas/cursos/matrículas) pelo Observatório. Consultado em goias.gov.br/saude/regionais-de-saude, 09/07/2026."
+ },
+ "municipio_regiao": {
+  "5200050": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5200100": {
+   "regiao": "Pireneus",
+   "macrorregiao": "Centro Norte"
+  },
+  "5200134": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5200159": {
+   "regiao": "Oeste II",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5200175": {
+   "regiao": "Entorno Norte",
+   "macrorregiao": "Nordeste"
+  },
+  "5200209": {
+   "regiao": "Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5200258": {
+   "regiao": "Entorno Sul",
+   "macrorregiao": "Nordeste"
+  },
+  "5200308": {
+   "regiao": "Pireneus",
+   "macrorregiao": "Centro Norte"
+  },
+  "5200506": {
+   "regiao": "Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5200555": {
+   "regiao": "Serra da Mesa",
+   "macrorregiao": "Centro Norte"
+  },
+  "5200605": {
+   "regiao": "Entorno Norte",
+   "macrorregiao": "Nordeste"
+  },
+  "5200803": {
+   "regiao": "Nordeste II",
+   "macrorregiao": "Nordeste"
+  },
+  "5200829": {
+   "regiao": "Serra da Mesa",
+   "macrorregiao": "Centro Norte"
+  },
+  "5200852": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5200902": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5201108": {
+   "regiao": "Pireneus",
+   "macrorregiao": "Centro Norte"
+  },
+  "5201207": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5201306": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5201405": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5201454": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5201504": {
+   "regiao": "Sudoeste II",
+   "macrorregiao": "Sudoeste"
+  },
+  "5201603": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5201702": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5201801": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5202155": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5202353": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5202502": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5202601": {
+   "regiao": "Oeste II",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5202809": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5203104": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5203203": {
+   "regiao": "São Patrício II",
+   "macrorregiao": "Centro Norte"
+  },
+  "5203302": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5203401": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5203500": {
+   "regiao": "Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5203559": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5203575": {
+   "regiao": "Norte",
+   "macrorregiao": "Centro Norte"
+  },
+  "5203609": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5203807": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5203906": {
+   "regiao": "Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5203939": {
+   "regiao": "Oeste II",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5203962": {
+   "regiao": "Nordeste II",
+   "macrorregiao": "Nordeste"
+  },
+  "5204003": {
+   "regiao": "Entorno Norte",
+   "macrorregiao": "Nordeste"
+  },
+  "5204102": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5204201": {
+   "regiao": "Oeste II",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5204250": {
+   "regiao": "Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5204300": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5204409": {
+   "regiao": "Sudoeste II",
+   "macrorregiao": "Sudoeste"
+  },
+  "5204508": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5204557": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5204607": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5204656": {
+   "regiao": "Norte",
+   "macrorregiao": "Centro Norte"
+  },
+  "5204706": {
+   "regiao": "Serra da Mesa",
+   "macrorregiao": "Centro Norte"
+  },
+  "5204805": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5204854": {
+   "regiao": "Pireneus",
+   "macrorregiao": "Centro Norte"
+  },
+  "5204904": {
+   "regiao": "Nordeste I",
+   "macrorregiao": "Nordeste"
+  },
+  "5204953": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5205000": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5205059": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5205109": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5205208": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5205307": {
+   "regiao": "Nordeste I",
+   "macrorregiao": "Nordeste"
+  },
+  "5205406": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5205455": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5205471": {
+   "regiao": "Sudoeste II",
+   "macrorregiao": "Sudoeste"
+  },
+  "5205497": {
+   "regiao": "Entorno Sul",
+   "macrorregiao": "Nordeste"
+  },
+  "5205513": {
+   "regiao": "Pireneus",
+   "macrorregiao": "Centro Norte"
+  },
+  "5205521": {
+   "regiao": "Serra da Mesa",
+   "macrorregiao": "Centro Norte"
+  },
+  "5205703": {
+   "regiao": "Oeste II",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5205802": {
+   "regiao": "Pireneus",
+   "macrorregiao": "Centro Norte"
+  },
+  "5205901": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5206206": {
+   "regiao": "Entorno Sul",
+   "macrorregiao": "Nordeste"
+  },
+  "5206305": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5206404": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5206503": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5206602": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5206701": {
+   "regiao": "Nordeste II",
+   "macrorregiao": "Nordeste"
+  },
+  "5206800": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5206909": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5207105": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5207253": {
+   "regiao": "Sudoeste II",
+   "macrorregiao": "Sudoeste"
+  },
+  "5207352": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5207402": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5207501": {
+   "regiao": "Norte",
+   "macrorregiao": "Centro Norte"
+  },
+  "5207535": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5207600": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5207808": {
+   "regiao": "Oeste II",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5207907": {
+   "regiao": "Entorno Norte",
+   "macrorregiao": "Nordeste"
+  },
+  "5208004": {
+   "regiao": "Entorno Norte",
+   "macrorregiao": "Nordeste"
+  },
+  "5208103": {
+   "regiao": "Norte",
+   "macrorregiao": "Centro Norte"
+  },
+  "5208152": {
+   "regiao": "Pireneus",
+   "macrorregiao": "Centro Norte"
+  },
+  "5208301": {
+   "regiao": "Nordeste I",
+   "macrorregiao": "Nordeste"
+  },
+  "5208400": {
+   "regiao": "Pireneus",
+   "macrorregiao": "Centro Norte"
+  },
+  "5208509": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5208608": {
+   "regiao": "São Patrício II",
+   "macrorregiao": "Centro Norte"
+  },
+  "5208707": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5208806": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5208905": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5209101": {
+   "regiao": "Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5209150": {
+   "regiao": "Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5209200": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5209291": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5209408": {
+   "regiao": "Nordeste II",
+   "macrorregiao": "Nordeste"
+  },
+  "5209457": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5209606": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5209705": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5209804": {
+   "regiao": "Serra da Mesa",
+   "macrorregiao": "Centro Norte"
+  },
+  "5209903": {
+   "regiao": "Nordeste II",
+   "macrorregiao": "Nordeste"
+  },
+  "5209937": {
+   "regiao": "Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5209952": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5210000": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5210109": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5210158": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5210208": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5210307": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5210406": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5210562": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5210604": {
+   "regiao": "São Patrício II",
+   "macrorregiao": "Centro Norte"
+  },
+  "5210802": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5210901": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5211008": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5211206": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5211305": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5211404": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5211503": {
+   "regiao": "Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5211602": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5211701": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5211800": {
+   "regiao": "São Patrício II",
+   "macrorregiao": "Centro Norte"
+  },
+  "5211909": {
+   "regiao": "Sudoeste II",
+   "macrorregiao": "Sudoeste"
+  },
+  "5212006": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5212055": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5212105": {
+   "regiao": "Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5212204": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5212253": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5212303": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5212501": {
+   "regiao": "Entorno Sul",
+   "macrorregiao": "Nordeste"
+  },
+  "5212600": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5212709": {
+   "regiao": "Nordeste II",
+   "macrorregiao": "Nordeste"
+  },
+  "5212808": {
+   "regiao": "Serra da Mesa",
+   "macrorregiao": "Centro Norte"
+  },
+  "5212907": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5212956": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5213004": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5213053": {
+   "regiao": "São Patrício II",
+   "macrorregiao": "Centro Norte"
+  },
+  "5213087": {
+   "regiao": "Norte",
+   "macrorregiao": "Centro Norte"
+  },
+  "5213103": {
+   "regiao": "Sudoeste II",
+   "macrorregiao": "Sudoeste"
+  },
+  "5213400": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5213509": {
+   "regiao": "Nordeste I",
+   "macrorregiao": "Nordeste"
+  },
+  "5213707": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5213756": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5213772": {
+   "regiao": "Norte",
+   "macrorregiao": "Centro Norte"
+  },
+  "5213806": {
+   "regiao": "Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5213855": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5213905": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5214002": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5214051": {
+   "regiao": "Norte",
+   "macrorregiao": "Centro Norte"
+  },
+  "5214101": {
+   "regiao": "Norte",
+   "macrorregiao": "Centro Norte"
+  },
+  "5214408": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5214507": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5214606": {
+   "regiao": "Serra da Mesa",
+   "macrorregiao": "Centro Norte"
+  },
+  "5214705": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5214804": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5214838": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5214861": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5214879": {
+   "regiao": "Serra da Mesa",
+   "macrorregiao": "Centro Norte"
+  },
+  "5214903": {
+   "regiao": "Nordeste II",
+   "macrorregiao": "Nordeste"
+  },
+  "5215009": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5215207": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5215231": {
+   "regiao": "Entorno Sul",
+   "macrorregiao": "Nordeste"
+  },
+  "5215256": {
+   "regiao": "Norte",
+   "macrorregiao": "Centro Norte"
+  },
+  "5215306": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5215405": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5215504": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5215603": {
+   "regiao": "São Patrício II",
+   "macrorregiao": "Centro Norte"
+  },
+  "5215652": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5215702": {
+   "regiao": "Oeste II",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5215801": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5215900": {
+   "regiao": "Oeste II",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5216007": {
+   "regiao": "Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5216304": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5216403": {
+   "regiao": "Oeste II",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5216452": {
+   "regiao": "Sudoeste II",
+   "macrorregiao": "Sudoeste"
+  },
+  "5216809": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5216908": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5217104": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5217203": {
+   "regiao": "Oeste I",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5217302": {
+   "regiao": "Pireneus",
+   "macrorregiao": "Centro Norte"
+  },
+  "5217401": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5217609": {
+   "regiao": "Entorno Norte",
+   "macrorregiao": "Nordeste"
+  },
+  "5217708": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5218003": {
+   "regiao": "Norte",
+   "macrorregiao": "Centro Norte"
+  },
+  "5218052": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5218102": {
+   "regiao": "Sudoeste II",
+   "macrorregiao": "Sudoeste"
+  },
+  "5218300": {
+   "regiao": "Nordeste II",
+   "macrorregiao": "Nordeste"
+  },
+  "5218391": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5218508": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5218607": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5218706": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5218789": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5218805": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5218904": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5219001": {
+   "regiao": "Oeste II",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5219100": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5219209": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5219258": {
+   "regiao": "Rio Vermelho",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5219308": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5219357": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5219407": {
+   "regiao": "Sudoeste II",
+   "macrorregiao": "Sudoeste"
+  },
+  "5219456": {
+   "regiao": "São Patrício II",
+   "macrorregiao": "Centro Norte"
+  },
+  "5219506": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5219605": {
+   "regiao": "Norte",
+   "macrorregiao": "Centro Norte"
+  },
+  "5219704": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5219712": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5219738": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5219753": {
+   "regiao": "Entorno Sul",
+   "macrorregiao": "Nordeste"
+  },
+  "5219803": {
+   "regiao": "Nordeste II",
+   "macrorregiao": "Nordeste"
+  },
+  "5219902": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5220009": {
+   "regiao": "Entorno Norte",
+   "macrorregiao": "Nordeste"
+  },
+  "5220058": {
+   "regiao": "Oeste II",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5220108": {
+   "regiao": "Oeste II",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5220157": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5220207": {
+   "regiao": "Norte",
+   "macrorregiao": "Centro Norte"
+  },
+  "5220264": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5220280": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5220405": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5220454": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5220504": {
+   "regiao": "Sudoeste II",
+   "macrorregiao": "Sudoeste"
+  },
+  "5220603": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5220686": {
+   "regiao": "Nordeste II",
+   "macrorregiao": "Nordeste"
+  },
+  "5220702": {
+   "regiao": "Nordeste II",
+   "macrorregiao": "Nordeste"
+  },
+  "5221007": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5221080": {
+   "regiao": "Nordeste I",
+   "macrorregiao": "Nordeste"
+  },
+  "5221197": {
+   "regiao": "Pireneus",
+   "macrorregiao": "Centro Norte"
+  },
+  "5221304": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5221403": {
+   "regiao": "Central",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5221452": {
+   "regiao": "Norte",
+   "macrorregiao": "Centro Norte"
+  },
+  "5221502": {
+   "regiao": "Oeste II",
+   "macrorregiao": "Centro-Oeste"
+  },
+  "5221551": {
+   "regiao": "Sudoeste I",
+   "macrorregiao": "Sudoeste"
+  },
+  "5221577": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5221601": {
+   "regiao": "Serra da Mesa",
+   "macrorregiao": "Centro Norte"
+  },
+  "5221700": {
+   "regiao": "São Patrício I",
+   "macrorregiao": "Centro Norte"
+  },
+  "5221809": {
+   "regiao": "Estrada de Ferro",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5221858": {
+   "regiao": "Entorno Sul",
+   "macrorregiao": "Nordeste"
+  },
+  "5221908": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5222005": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5222054": {
+   "regiao": "Centro Sul",
+   "macrorregiao": "Centro Sudeste"
+  },
+  "5222203": {
+   "regiao": "Entorno Norte",
+   "macrorregiao": "Nordeste"
+  },
+  "5222302": {
+   "regiao": "São Patrício II",
+   "macrorregiao": "Centro Norte"
+  }
+ }
+}
